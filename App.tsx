@@ -45,7 +45,7 @@ const App: React.FC = () => {
       
       <footer className="bg-black text-brand-yellow py-8 text-center">
         <div className="container mx-auto px-4">
-          <p className="font-bold uppercase tracking-widest text-sm mb-2">Vibe Coding Workshop © 2024</p>
+          <p className="font-bold uppercase tracking-widest text-sm mb-2">Vibe Coding Workshop © 2025</p>
           <p className="text-xs text-neutral-500">
             {t.footer.rights}
           </p>

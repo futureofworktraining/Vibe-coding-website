@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
             <div className="flex flex-wrap gap-4 py-2 font-mono text-sm md:text-base text-black/90">
               <div className="flex items-center gap-2 border-b-2 border-black/10 pb-1">
                 <Calendar className="w-5 h-5" />
-                <span className="font-bold">15.12.2024</span>
+                <span className="font-bold">15.12.2025</span>
               </div>
               <div className="flex items-center gap-2 border-b-2 border-black/10 pb-1">
                 <Clock className="w-5 h-5" />

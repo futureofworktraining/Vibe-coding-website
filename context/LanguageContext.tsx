@@ -46,6 +46,10 @@ interface Translations {
       manager: string;
       architect: string;
     };
+    bios: {
+      krzysztof: string;
+      andrzej: string;
+    };
   };
   faq: {
     title: string;
@@ -107,7 +111,7 @@ const translations: Record<Language, Translations> = {
       desc: 'Przestań pisać kod.',
       descHighlight: 'Zacznij zarządzać AI.',
       descSub: 'Warsztat dla twórców jutra.',
-      date: 'Niedziela, 2024',
+      date: 'Niedziela, 2025',
       btn: 'Zarezerwuj Miejsce',
       certificate: 'Certyfikat + Nagrania',
     },
@@ -136,6 +140,26 @@ const translations: Record<Language, Translations> = {
       roles: {
         manager: "Menadżer ds. Automatyzacji Procesów",
         architect: "Architekt ds hiperautomatyzacji"
+      },
+      bios: {
+        krzysztof: `Ponad 15-letnie doświadczenie w pracy w międzynarodowym środowisku.
+        
+        Był zaangażowany lub bezpośrednio odpowiedzialny za wdrożenia systemów IT wspierających wydajność i produktywność w kilku międzynarodowych firmach.
+        
+        Od 2016 praktyk i trener rozwiązań RPA. Przeszkolił i przygotował do pracy z technologią RPA ponad 400 specjalistów i managerów z całego świata. Certyfikowany trener i deweloper narzędzi UiPath.
+        
+        Obecnie pracuje na stanowisku RPA Product Manager i jest odpowiedzialny za implementację narzędzi RPA i AI w jednym z największych na świecie międzynarodowych banków.
+        
+        Autor open-sourcowych projektów związanych z LLM i automatyzacją procesów takich jak GPT-Powered Reframework, Microbots AI i automonicznych agentów AI takich jak AiPath – Authonomous RPA Robot.
+        
+        Absolwent Psychologii na Uniwersytecie Łódzkim i studiów podyplomowych IT na Polsko-Japońskiej Akademii Technik Komputerowych.`,
+        andrzej: `Od blisko 6 lat zajmuje się automatyzacją / robotyzacją procesów biznesowych, a od 4 lat jest wielkim fanem hiperautomatyzacji.
+        
+        Prowadzi serwis Robonomika.pl, współorganizuje programy edukacyjne Bakcyl RPA, Tytani RPA oraz Kuźnia biznesowych liderów AI. W ciągu ostatnich 3 lat zorganizował 9 konferencji dotyczących hiperautomatyzacji, w których wzięło udział blisko 13.000 osób.
+        
+        W ciągu ostatnich kilku lat uczestniczył w szeregu projektów w roli architekta korporacyjnego, architekta IT, analityka biznesowego i analityka procesów. Na co dzień wykorzystuje ArchiMate, BPMN i UML. Pracuje w Sparx Enterprise Architect, Visual Paradigm, Bizzagi.
+        
+        Pracuje na stanowisku profesora na SGH, gdzie kieruje Zakładem Zarządzania IT. W Oficynie Wydawniczej SGH wydana została jego książka pt. "Strategiczne pozycjonowanie robotyzacji procesów biznesowych w przedsiębiorstwie".`
       }
     },
     faq: {
@@ -202,7 +226,7 @@ const translations: Record<Language, Translations> = {
       desc: 'Stop writing code.',
       descHighlight: 'Start managing AI.',
       descSub: 'A workshop for the creators of tomorrow.',
-      date: 'Sunday, 2024',
+      date: 'Sunday, 2025',
       btn: 'Reserve Your Spot',
       certificate: 'Certificate + Recordings',
     },
@@ -231,6 +255,26 @@ const translations: Record<Language, Translations> = {
       roles: {
         manager: "Process Automation Manager",
         architect: "Hyperautomation Architect"
+      },
+      bios: {
+        krzysztof: `Over 15 years of experience working in an international environment.
+        
+        Was involved in or directly responsible for implementing IT systems supporting efficiency and productivity in several international companies.
+        
+        Since 2016, a practitioner and trainer of RPA solutions. Trained and prepared over 400 specialists and managers from around the world to work with RPA technology. Certified UiPath trainer and developer.
+        
+        Currently works as an RPA Product Manager and is responsible for implementing RPA and AI tools in one of the world's largest international banks.
+        
+        Author of open-source projects related to LLMs and process automation such as GPT-Powered Reframework, Microbots AI, and autonomous AI agents like AiPath – Autonomous RPA Robot.
+        
+        Graduate of Psychology at the University of Lodz and postgraduate IT studies at the Polish-Japanese Academy of Information Technology.`,
+        andrzej: `For nearly 6 years, he has been involved in business process automation / robotization, and for 4 years has been a huge fan of hyperautomation.
+        
+        Runs the Robonomika.pl website, co-organizes educational programs Bakcyl RPA, Tytani RPA, and Forge of Business AI Leaders. In the last 3 years, he organized 9 conferences on hyperautomation, attended by nearly 13,000 people.
+        
+        In recent years, he participated in a number of projects as a corporate architect, IT architect, business analyst, and process analyst. He uses ArchiMate, BPMN, and UML on a daily basis. Works in Sparx Enterprise Architect, Visual Paradigm, Bizzagi.
+        
+        Works as a professor at SGH Warsaw School of Economics, where he heads the IT Management Department. His book "Strategic positioning of business process robotization in the enterprise" was published by the SGH Publishing House.`
       }
     },
     faq: {
